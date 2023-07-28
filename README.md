@@ -6,7 +6,7 @@ send on request. The request comes from a Control-PC (I use a Raspberry Pi 4) vi
 ModBus protocol that is compatible with the ModBus protocol of the DALY BMS.
 
 It uses the 2 UART ports of the Pico and also listens to the serial data line going to the LCD display 
-(Rx is on the LCD Display side). The serial data line is connected to a Input GPIO Port of the Pico
+(Rx is on the LCD Display side). This serial data line is connected to a Input GPIO Port of the Pico
 making it a 3rd UART Rx port (using "bit banging").
 
 Additionally via a GPIO PWM Output the output power of the GTIL2 can be controlled. The setting is 
